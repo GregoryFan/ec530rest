@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 app = FastAPI()
 
-accounts = []
+accounts = {}
 
 @app.get("/")
 def home():
